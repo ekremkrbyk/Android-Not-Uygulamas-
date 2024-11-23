@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Varsayılan stil tanımlamaları burada olabilir -->
+
+    <!-- Custom Popup Menu stili -->
+    <style name="CustomPopupMenu" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">#787878</item> <!-- Arka plan rengi -->
+        <!-- Diğer özellikler eklenebilir -->
+    </style>
+</resources>

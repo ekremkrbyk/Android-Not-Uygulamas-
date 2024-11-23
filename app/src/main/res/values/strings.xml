@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Notes</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="BenimNotlarım">Benim Notlarım</string>
+    <string name="kaydet">Kaydet</string>
+    <string name="not_giriniz">Not giriniz</string>
+    <string name="ba_l_k_giriniz">Başlık giriniz</string>
+</resources>
