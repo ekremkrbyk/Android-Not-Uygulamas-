@@ -1,0 +1,23 @@
+@startuml Not Uygulaması 
+title Not Uygulaması
+
+class mainScreen 
+class notsFragment
+
+package Modal{
+    class Notlar
+}
+
+package DB {
+    class INotDao
+    class NotDataBase
+    class itemDelete
+}
+
+NotDataBase ..> Modal : Kullanılıyor
+NotDataBase ..> INotDao : Kullanılıyor
+mainScreen ..>  DB : Kullanılıyor
+notsFragment ..> DB : Kullanılıyor
+
+hide empty members
+@enduml
